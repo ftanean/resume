@@ -120,7 +120,7 @@ span{
     width:90%;
     text-align: justify;
     font-size: smaller;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 .introduction h1   {
@@ -197,4 +197,11 @@ ul.waxson-jobdes{ /*targetting ul that has waxson-jobdes class*/
 .certifications p{
     font-size: smaller;
     margin:2px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    float:right;
+    margin:10px;
 }
