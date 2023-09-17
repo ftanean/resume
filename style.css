@@ -112,7 +112,6 @@ span{
 /*introduction*/
 .introduction{
     margin-left: 10%;
-  
 }
 
 .introduction p {
@@ -120,12 +119,13 @@ span{
     width:90%;
     text-align: justify;
     font-size: smaller;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .introduction h1   {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.3rem;
+    color:#141E46;
 }
 
 
@@ -150,6 +150,7 @@ span{
     margin:0;
     margin-bottom: 2px;
     margin-top:2px;
+    color:#141E46;
 }
 
 .tiktok-jobdes{
@@ -174,12 +175,13 @@ ul.waxson-jobdes{ /*targetting ul that has waxson-jobdes class*/
     margin:0;
     margin-bottom: 2px;
     margin-top:2px;
+    color:#141E46;
 }
 
 .waxson-jobdes{
     width:90%;
     text-align: justify;
-   margin-bottom:8%;
+   margin-bottom:5%;
 }
 
 
@@ -203,5 +205,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
     float:right;
-    margin:10px;
+    margin-right:8%;
+    margin-top:20px;
+
 }
