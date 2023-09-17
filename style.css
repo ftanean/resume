@@ -1,0 +1,200 @@
+body {
+    width:100%;
+    min-height: 98vh;
+    display: flex;
+}
+
+.left{
+    background-color: #141E46;
+    width:15%;
+    margin-left:25%;
+    float:left;
+    height:100%;
+   
+}
+
+.right{
+    background-color:#FFF5E0;
+    width:35%;
+    margin-right:25%;
+    float:right;
+    height:100%;
+}
+
+.picture-fiona{
+   object-fit:cover;
+   border-radius: 50%;
+   width:180px;
+   height:180px;
+   margin:25px 25px;
+   border:3px solid #FF6969;
+}
+
+.left-content{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* LEFT SIDE CONTENT /*
+
+/*contact*/ 
+
+.contact{
+    margin-left:40px;
+}
+
+.contact h2 {
+    margin:0px; /*remove space between "contact" and content*/
+}
+
+.contact p {
+    margin:0px;
+    font-size: smaller;
+}
+
+.contact h3 {
+    font-size: smaller;
+    margin-bottom:0px;
+}
+
+/*education*/
+
+.education ul {
+    padding:0px;
+}
+
+.education{
+    margin-left:40px;
+}
+
+.education h2 {
+    margin-bottom:0px; /*remove space between "education" and content*/
+    margin-top:40px;
+}
+
+.education li {
+    margin:0px;
+    font-size: smaller;
+}
+
+.education h3{
+    font-size:smaller;
+    margin-bottom: 2px;
+    margin-top:2px;
+}
+
+
+/*language*/
+.language ul {
+    padding:0px;
+}
+
+.language{
+    margin-left:40px;
+}
+
+.language h2{
+    margin-bottom:0px;
+    margin-top:40px;
+}
+
+.language li {
+    margin:0px;
+    font-size: smaller;
+}
+
+
+/* RIGHT SIDE CONTENT */
+span{
+    color: #FF6969;
+}
+
+/*introduction*/
+.introduction{
+    margin-left: 10%;
+  
+}
+
+.introduction p {
+    font-family: Arial, Helvetica, sans-serif;
+    width:90%;
+    text-align: justify;
+    font-size: smaller;
+    margin-bottom: 8%;
+}
+
+.introduction h1   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+}
+
+
+
+/*experience*/
+.experience{
+    margin-left:10%;
+}
+
+.experience h2  {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:0;
+}
+
+.tiktok ul{
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.tiktok h3{
+    margin:0;
+    margin-bottom: 2px;
+    margin-top:2px;
+}
+
+.tiktok-jobdes{
+    width:90%;
+    text-align: justify;
+}
+
+.waxson ul{ /* targetting ul that is under waxson class*/
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin-top:30px;
+  
+}
+
+ul.waxson-jobdes{ /*targetting ul that has waxson-jobdes class*/
+    margin-top:0;
+}
+
+
+.waxson h3{
+    margin:0;
+    margin-bottom: 2px;
+    margin-top:2px;
+}
+
+.waxson-jobdes{
+    width:90%;
+    text-align: justify;
+   margin-bottom:8%;
+}
+
+
+/*certification*/
+.certifications{
+    margin-left:10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.certifications h2  {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.certifications p{
+    font-size: smaller;
+    margin:2px;
+}
