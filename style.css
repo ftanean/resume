@@ -5,13 +5,13 @@ body {
 }
 
 .main{
-    width:100%;
+    width:800px;
+    margin:0% auto;
 }
 
 .left{
     background-color: #141E46;
-    width:15%;
-    margin-left:25%;
+    width:30%;
     float:left;
     height:100%;
    
@@ -19,8 +19,7 @@ body {
 
 .right{
     background-color:#FFF5E0;
-    width:35%;
-    margin-right:25%;
+    width:70%;
     float:right;
     height:100%;
 }
@@ -217,7 +216,7 @@ ul.waxson-jobdes{ /*targetting ul that has waxson-jobdes class*/
 
 
 
-@media (max-width: 680px) {
+@media (max-width: 800px) {
 
    .main{
     width:100%;
