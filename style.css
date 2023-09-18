@@ -29,7 +29,7 @@ body {
    border-radius: 50%;
    width:180px;
    height:180px;
-   margin:25px 25px;
+   margin:10% 10%;
    border:3px solid #FF6969;
 }
 
@@ -216,48 +216,93 @@ ul.waxson-jobdes{ /*targetting ul that has waxson-jobdes class*/
 
 
 
-@media (max-width: 800px) {
+@media (min-width:320px) and (max-width: 795px) {
+    .main{
+        width:100%;
+        position:relative;
+       }
 
-   .main{
-    width:100%;
-    position:relative;
-   }
+       .introduction{
+        width:90%;
+       }
 
-   .page{
-    width:100%;
-   }
+       .introduction h1{
+        margin-left: 10%;
+       }
 
-   .picture-fiona{
-    display:none;
-   }
+       .introduction p {
+        margin-left: 10%;
+       
+       }
 
-   .left {
-    margin-left:0;
-    position:absolute;
-    top:100%;
-    height:100%;
-   }
+       .page{
+        width:100%;
+       }
+    
+       .picture-fiona{
+        display:none;
+       }
+    
+       .left {
+        margin-left:0;
+        position:absolute;
+        top:100%;
+        height:75%; 
+        
+       }
+    
+       .right{
+        position:relative; 
+        margin-bottom:50px;
+      
+       }
 
-   .right{
-    margin-right:0;
-    position:relative;
-    height:105%;
-   }
+       
+    
+       .left-content{
+       /* position:relative; */
+        margin-top:50px;
+        text-align: center;
+       
+       }
 
-   .left-content{
-  position:relative;
-  margin-top:20%;
-   
-   }
+       .contact hr {
+        width:10%;
+       }
 
-   footer {
-    color:white;
-    margin:40px;
+       .education hr {
+        width:10%;
+       }
 
-   
-  
+       .language hr {
+        width:10%;
+       }
+    
+       footer {
+        color:white;
+        text-align: center;
+        margin:0;
+        padding-top:5%;
+       }
 
-   }
+       div.contact{
+        margin:0
+       }
+
+       div.education{
+        margin:0
+       }
+
+       div.language{
+        margin:0
+       }
+
+       div.introduction{
+        margin:0;
+       }
+       div.introduction{
+        margin:0;
+       }
 
 
    
